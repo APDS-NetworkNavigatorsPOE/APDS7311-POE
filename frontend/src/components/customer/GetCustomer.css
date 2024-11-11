@@ -1,0 +1,54 @@
+/* GetCustomer.css */
+
+.container {
+    max-width: 800px; /* Restrict max width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #343a40; /* Darker text color */
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.error {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center error messages */
+    margin-top: 10px; /* Space above error messages */
+}
+
+.customer-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.customer-item {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Align items vertically */
+    background-color: #ffffff; /* White background for each item */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Padding inside each item */
+    margin-bottom: 10px; /* Space below each item */
+}
+
+.customer-info {
+    flex: 1; /* Allow info to grow */
+    margin-right: 10px; /* Space between info and actions */
+}
+
+.link {
+    margin-right: 10px; /* Space between links */
+    color: #007bff; /* Primary link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover */
+}

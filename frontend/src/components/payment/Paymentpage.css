@@ -1,0 +1,47 @@
+/* Scoped Payment List Styling */
+.payment-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Individual payment list item styling */
+.payment-list-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.payment-list-item:hover {
+    transform: scale(1.02);
+}
+
+/* Payment details */
+.payment-list-item p {
+    margin: 8px 0;
+    color: #333;
+    font-size: 0.9em;
+}
+
+/* Emphasize labels */
+.payment-list-item p strong {
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .payment-list {
+        padding: 0 10px;
+    }
+
+    .payment-list-item {
+        padding: 10px;
+    }
+}

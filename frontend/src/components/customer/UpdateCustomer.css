@@ -1,0 +1,67 @@
+/* UpdateCustomer.css */
+
+.container {
+    max-width: 800px; /* Restrict max width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #343a40; /* Darker text color */
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Space above and below labels */
+    color: #495057; /* Text color for labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+button {
+    padding: 10px 15px; /* Button padding */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error {
+    color: red; /* Red color for error messages */
+    text-align: center; /* Center error messages */
+    margin-top: 10px; /* Space above error messages */
+}
+
+.success {
+    color: green; /* Green color for success messages */
+    text-align: center; /* Center success messages */
+    margin-top: 10px; /* Space above success messages */
+}
+
+.confirmation {
+    text-align: center; /* Center confirmation messages */
+    margin: 20px 0; /* Space around confirmation */
+}
+
+.confirmation button {
+    margin: 0 5px; /* Space between confirmation buttons */
+}
+

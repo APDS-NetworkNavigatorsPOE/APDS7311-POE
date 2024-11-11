@@ -1,3 +1,7 @@
+//This code was adapted from stack Overflow
+//https://stackoverflow.com/questions/69864165/error-privateroute-is-not-a-route-component-all-component-children-of-rou
+//Drew Reese
+//https://stackoverflow.com/users/8690857/drew-reese
 import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import axios from 'axios';

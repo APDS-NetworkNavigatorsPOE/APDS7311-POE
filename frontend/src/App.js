@@ -1,3 +1,8 @@
+//This code was adapted from stack Overflow
+//https://stackoverflow.com/questions/43164554/how-to-implement-authenticated-routes-in-react-router-4
+//Jiew Meng
+//https://stackoverflow.com/users/292291/jiew-meng
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import Navbar from './components/navbar';

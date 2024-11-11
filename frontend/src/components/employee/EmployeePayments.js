@@ -1,3 +1,7 @@
+//This code was adapted from Stack Overflow
+//https://stackoverflow.com/questions/53332321/react-hook-warnings-for-async-function-in-useeffect-useeffect-function-must-ret
+//Ziimakc
+//https://stackoverflow.com/users/10188661/ziimakc
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 

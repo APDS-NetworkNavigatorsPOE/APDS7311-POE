@@ -1,3 +1,7 @@
+//This code was adapted from stack Overflow
+//https://stackoverflow.com/questions/43164554/how-to-implement-authenticated-routes-in-react-router-4
+//Jiew Meng
+//https://stackoverflow.com/users/292291/jiew-meng
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';

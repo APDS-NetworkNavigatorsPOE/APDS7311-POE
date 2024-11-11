@@ -1,3 +1,7 @@
+//This code was adapted from stack Overflow
+//https://stackoverflow.com/questions/14588032/mongoose-password-hashing
+//Noah
+//https://stackoverflow.com/users/1095114/noah
 import express from 'express';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';

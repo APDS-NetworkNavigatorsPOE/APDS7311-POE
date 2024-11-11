@@ -1,3 +1,7 @@
+//This code was adapted from Stack Overflow
+//https://stackoverflow.com/questions/70618815/new-to-react-where-do-you-put-your-model-methods
+// Emil Karlsson
+//https://stackoverflow.com/users/12057512/emil-karlsson
 import mongoose from 'mongoose';
 
 const logininAttemptSchema = new mongoose.Schema({
